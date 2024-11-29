@@ -11,7 +11,6 @@ Loop ai assesment
 
 **Example** of business hours in Doordash
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b01eb2b-f52b-49a9-9458-39a346cba6ab/Untitled.png)
 
 **Goal** 
 
@@ -52,8 +51,6 @@ Grubhub
 | johnspizz_sicilianpi_gh | SELECT response FROM `arboreal-vision-339901.take_home_v2.virtual_kitchen_grubhub_hours` LIMIT 1000; |  |
 |  |  |  |
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ae8a8a1-398a-4ce4-b63c-0e20c7551b47/Untitled.png)
-
 **Output** 
 
 | Grubhub slug | Virtual Restuarant Business Hours | Uber Eats slug | Uber Eats Business Hours | is_out_range **(expected output)** |
@@ -62,19 +59,3 @@ Grubhub
 |  |  |  |  | Out of Range  |
 |  |  |  |  | Out of Range with 5 mins difference between GH and UE |
 
-**Submission instructions**
-
-1. Send us a SQL or sets of SQL that ouputs data in this format. 
-
-## Tips
-
-1. Please use your personal BigQuery, it is free. ( https://cloud.google.com/bigquery/public-data/  ⇒ click on Go to analytics hub , 
-https://cloud.google.com/blog/products/data-analytics/query-without-a-credit-card-introducing-bigquery-sandbox , https://towardsdatascience.com/bigquery-without-a-credit-card-discover-learn-and-share-199e08d4a064 ) 
-    
-2. You can view the data once you open BigQuery and run from this table. 
-3. Please use json parsing and do not use regex. 
-4. There is a way to write the SQL without brute forcing all day combinations etc, we would strongly prefer that. 
-    1. Some starting point that might help https://stackoverflow.com/questions/34890339/how-to-extract-all-the-keys-in-a-json-object-with-bigquery 
-5. Slug is a unique idenfitier for a store
-6. If there are multiple entries for a store, use the one with the latest timestamp.  
-7. You can use unnest to flatten business hours array in JSON

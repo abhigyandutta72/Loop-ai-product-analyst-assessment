@@ -43,8 +43,6 @@ Take the first key value pair in the menu dictionary and the first section and a
 
 Note: daysBitArray starts with Monday and indicates the days of the week for this time window is applicable. The might be more than element in the regularHours array. 
 
-![Screen Shot 2022-10-11 at 10.39.59 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8055c4a3-bc72-4c10-9068-817525dc53c7/Screen_Shot_2022-10-11_at_10.39.59_PM.png)
-
 **Grubhub Business Hours** 
 
 Grubhub
@@ -72,8 +70,6 @@ Grubhub
 
 1. Please use your personal BigQuery, it is free. ( https://cloud.google.com/bigquery/public-data/  ⇒ click on Go to analytics hub , 
 https://cloud.google.com/blog/products/data-analytics/query-without-a-credit-card-introducing-bigquery-sandbox , https://towardsdatascience.com/bigquery-without-a-credit-card-discover-learn-and-share-199e08d4a064 ) 
-    
-    ![Screen Shot 2023-06-15 at 11.56.53 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb6fadab-4492-4516-8aed-903ef6f96383/Screen_Shot_2023-06-15_at_11.56.53_PM.png)
     
 2. You can view the data once you open BigQuery and run from this table. 
 3. Please use json parsing and do not use regex. 
